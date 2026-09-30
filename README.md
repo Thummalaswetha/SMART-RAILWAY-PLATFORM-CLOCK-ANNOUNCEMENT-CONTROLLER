@@ -91,6 +91,8 @@ Long train names and information can be displayed using scrolling.
 
 🧩 System Block Diagram
 
+
+
                     ┌───────────────────┐
                     │    4×4 KEYPAD     │
                     │    User Input     │
