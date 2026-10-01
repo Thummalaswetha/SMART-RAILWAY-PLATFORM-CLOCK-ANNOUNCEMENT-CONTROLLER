@@ -42,27 +42,6 @@ GetRTCDay(&day);
 //delay_ms(3000);
 DisplayRTCDay(day);
 delay_ms(3000);
-if(AdminMode==1)
- continue;
-//delay_ms(1000);
-  
-  CurrentTrain=FindCurrentTrain(hour,min);
-  status=GetTrainStatus(CurrentTrain);
-  if(CurrentTrain<TOTAL_TRAINS)
-  {
-  DisplayTrainInfo(CurrentTrain);
-  if(AdminMode==1)
- continue;
- }
- delay_ms(1000);
- TrainAlert(status);
-   if(AdminMode==1)
- continue;
- /* if(AdminMode==1)
-  {
-  Admin_Menu();
-  AdminMode=0;
-  }	*/
   }
 }
 
