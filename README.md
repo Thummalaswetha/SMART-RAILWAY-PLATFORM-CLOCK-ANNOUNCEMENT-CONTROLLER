@@ -1,3 +1,4 @@
+<img width="2086" height="754" alt="image" src="https://github.com/user-attachments/assets/fdf5f71e-4d07-41cd-8ea4-423f4c3680ec" />
 
 Real-Time Train Schedule Monitoring • Passenger Information • Smart Alerts • Admin Control
 
