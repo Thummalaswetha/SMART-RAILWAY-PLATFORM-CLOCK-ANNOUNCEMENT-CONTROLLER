@@ -200,9 +200,9 @@ Train No.| Train Name| Destination| Arrival| Departure| Platform| Delay
 ⏱️ Train Status Logic
 
 The system compares the current RTC time with the relevant train schedule.
+<img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/77a97e5e-9bc1-40d1-8857-6b44c11849f3" />
 
-            <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2fe8c985-8a5c-4af8-9cc3-650d892da4d8" />
-     
+            
 📺 LCD Display
 
 The 16×2 LCD provides passenger information such as:
