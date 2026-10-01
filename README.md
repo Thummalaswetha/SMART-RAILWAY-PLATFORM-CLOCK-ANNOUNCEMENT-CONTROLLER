@@ -1,4 +1,4 @@
-# SMART-RAILWAY-PLATFORM-CLOCK-ANNOUNCEMENT-CONTROLLER🚆 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f742710c-f59f-42c6-b70c-fe0a10a9ea44" /><img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ec9dd324-e48c-40d0-ab26-c41f8e72a492" /># SMART-RAILWAY-PLATFORM-CLOCK-ANNOUNCEMENT-CONTROLLER🚆 
 
 Real-Time Train Schedule Monitoring • Passenger Information • Smart Alerts • Admin Control
 
@@ -93,30 +93,6 @@ Long train names and information can be displayed using scrolling.
 
 
 
-                    ┌───────────────────┐
-                    │    4×4 KEYPAD     │
-                    │    User Input     │
-                    └─────────┬─────────┘
-                              │
-                              ▼
-┌──────────────┐       ┌───────────────────┐
-│ Admin Switch │──────►│                   │
-│  External    │       │     LPC2148       │
-│  Interrupt   │       │   ARM7TDMI-S      │
-└──────────────┘       │   Microcontroller │
-                       │                   │
-┌──────────────┐       │                   │
-│     RTC      │──────►│                   │
-│ Real-Time    │       └───────┬───────────┘
-│    Clock     │               │
-└──────────────┘               │
-                  ┌────────────┼────────────┐
-                  │            │            │
-                  ▼            ▼            ▼
-             ┌────────┐   ┌─────────┐  ┌─────────┐
-             │  LCD   │   │  LEDs   │  │ Buzzer  │
-             │ 16×2   │   │ Status  │  │ Alert   │
-             └────────┘   └─────────┘  └─────────┘
 
 
 🧠 System Architecture
