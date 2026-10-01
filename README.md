@@ -429,39 +429,9 @@ Provides required software delay functions.
 
 
 🔄 Overall Program Flow
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/ebe45b40-9a83-446c-b5b6-9d720877bbc8" />
 
-              START
-                │
-                ▼
-       Initialize LPC2148
-                │
-                ▼
-      Initialize Peripherals
-                │
-       ┌────────┴────────┐
-       │                 │
-       ▼                 ▼
-   Normal Mode       Admin Interrupt
-       │                 │
-       ▼                 ▼
-   Read RTC          Admin Mode
-       │                 │
-       ▼                 ▼
-Compare Schedule     Authentication
-       │                 │
-       ▼                 ▼
-Determine Status     Modify Data
-       │                 │
-       ▼                 ▼
-LCD + LED +        Validate Data
-Buzzer Output           │
-       │                 ▼
-       │             Save Changes
-       │                 │
-       └────────┬────────┘
-                ▼
-         Continue Monitoring
-
+              
 
 
 📊 Functional Requirements
