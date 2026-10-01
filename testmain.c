@@ -39,11 +39,21 @@ DisplayRTCTime(hour,min,sec);
 GetRTCDateInfo(&date,&month,&year);
 DisplayRTCDate(date,month,year);
 GetRTCDay(&day);
-//delay_ms(3000);
 DisplayRTCDay(day);
 delay_ms(3000);
+ CurrentTrain=FindCurrentTrain(hour,min);
+  status=GetTrainStatus(CurrentTrain);
+  if(CurrentTrain<TOTAL_TRAINS)
+  {
+  DisplayTrainInfo(CurrentTrain);
+ 
+ }
+ delay_ms(1000);
+ TrainAlert(status);
+  
   }
 }
+
 
 
 
