@@ -201,24 +201,8 @@ Train No.| Train Name| Destination| Arrival| Departure| Platform| Delay
 
 The system compares the current RTC time with the relevant train schedule.
 
-                 Current RTC Time
-                       │
-                       ▼
-              Compare Train Time
-                       │
-          ┌────────────┼────────────┐
-          │            │            │
-          ▼            ▼            ▼
-      On-Time      Approaching    Delayed
-          │            │            │
-          ▼            ▼            ▼
-      Green LED    Yellow LED     Red LED
-                       │
-                       ▼
-                 Buzzer Alert
-
-
-
+            <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2fe8c985-8a5c-4af8-9cc3-650d892da4d8" />
+     
 📺 LCD Display
 
 The 16×2 LCD provides passenger information such as:
