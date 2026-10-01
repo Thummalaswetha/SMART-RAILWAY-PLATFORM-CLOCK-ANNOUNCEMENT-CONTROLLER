@@ -98,7 +98,7 @@ Long train names and information can be displayed using scrolling.
 🧠 System Architecture
 
 The system is divided into the following major modules:
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7efb1a53-6b14-4cf6-8866-85bd1f8a5d4e" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/426e4e3e-184a-412f-a507-a0bff6ad0eb8" />
 
                    
 ⚙️ System Working
