@@ -98,7 +98,8 @@ Long train names and information can be displayed using scrolling.
 🧠 System Architecture
 
 The system is divided into the following major modules:
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/426e4e3e-184a-412f-a507-a0bff6ad0eb8" />
+
+<img width="1536" height="1024" alt="ChatGPT Image Oct 1, 2026, 06_47_35 PM" src="https://github.com/user-attachments/assets/16742585-fb3c-4b6f-b3fe-314991879496" />
 
                    
 ⚙️ System Working
