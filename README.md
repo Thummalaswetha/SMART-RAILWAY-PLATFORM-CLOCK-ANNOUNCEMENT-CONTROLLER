@@ -91,8 +91,8 @@ Long train names and information can be displayed using scrolling.
 
 🧩 System Block Diagram
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ecbaa7d2-b7da-4aaa-a8b6-681472d224c6" />
 
+<img width="2056" height="765" alt="image" src="https://github.com/user-attachments/assets/3737d61d-a5f2-40e3-a23f-9e930a119ec9" />
 
 
 
